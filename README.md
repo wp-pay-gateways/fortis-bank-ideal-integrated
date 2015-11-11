@@ -1,4 +1,4 @@
-# WordPress Pay Gateway: Fortis Bank - iDEAL Integrated
+# [DEPRECATED] WordPress Pay Gateway: Fortis Bank - iDEAL Integrated
 
 **Fortis Bank - iDEAL Integrated driver for the WordPress payment processing library.**
 
