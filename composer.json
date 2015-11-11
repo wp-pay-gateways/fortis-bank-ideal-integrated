@@ -1,0 +1,36 @@
+{
+	"name": "wp-pay-gateways/fortis-bank-ideal-integrated",
+	"description": "Fortis Bank - iDEAL Integrated driver for the WordPress payment processing library.",
+	"keywords": ["wordpress", "wp", "pay", "fortis", "bank", "ideal", "integrated", "gateway", "pronamic"],
+	"homepage": "http://www.wp-pay.org/gateways/fortis-bank-ideal-integrated/",
+	"license": "GPL",
+	"authors": [
+		{
+			"name": "Pronamic",
+			"email": "info@pronamic.eu",
+			"homepage": "http://www.pronamic.eu/",
+			"role": "Company"
+		},
+		{
+			"name": "Remco Tolsma",
+			"email": "info@remcotolsma.nl",
+			"homepage": "http://www.remcotolsma.nl/",
+			"role": "Developer"
+		}
+	],
+	"support": {
+		"email": "support@wp-pay.org",
+		"issues": "https://github.com/wp-pay-gateways/fortis-bank-ideal-integrated/issues",
+		"source": "https://github.com/wp-pay-gateways/fortis-bank-ideal-integrated"
+	},
+	"autoload": {
+		"classmap": ["src/"]
+	},
+	"require": {
+		"php": ">=5.2.4",
+		"wp-pay/core": "dev-develop"
+	},
+	"require-dev": {
+		"satooshi/php-coveralls": "dev-master"
+	}
+}
