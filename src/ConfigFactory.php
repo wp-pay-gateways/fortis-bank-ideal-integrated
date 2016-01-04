@@ -10,6 +10,6 @@
  */
 class Pronamic_WP_Pay_Gateways_FortisBank_IDealIntegrated_ConfigFactory extends Pronamic_WP_Pay_Gateways_IDealAdvanced_ConfigFactory {
 	public function __construct() {
-		parent::__construct( 'Pronamic_WP_Pay_Gateways_FortisBank_IDealIntegrated_Config', 'Pronamic_WP_Pay_Gateways_FortisBank_IDealIntegrated_ConfigTest' );
+		parent::__construct( 'Pronamic_WP_Pay_Gateways_FortisBank_IDealIntegrated_Config', 'Pronamic_WP_Pay_Gateways_FortisBank_IDealIntegrated_TestConfig' );
 	}
 }
